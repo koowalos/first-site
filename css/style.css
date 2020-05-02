@@ -1,0 +1,34 @@
+.wrap {
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  background-color: #888;
+}
+
+.top-section {
+  background-image: url(/img/top-content-background.jpg);
+}
+
+.row {
+  padding: 2px;
+}
+
+.col-xs-12 {
+  border: 1px solid black;
+}
+
+h2 {
+  margin: 0;
+}
+
+.parallax-section {
+  background-color: #666;
+}
+
+.social {
+ height: 40px;
+ width: 40px;
+}
