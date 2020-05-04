@@ -1,35 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.0.5, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
-	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
-	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
-	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
-	<!ENTITY ns_vars "http://ns.adobe.com/Variables/1.0/">
-	<!ENTITY ns_imrep "http://ns.adobe.com/ImageReplacement/1.0/">
-	<!ENTITY ns_sfw "http://ns.adobe.com/SaveForWeb/1.0/">
-	<!ENTITY ns_custom "http://ns.adobe.com/GenericCustomNamespace/1.0/">
-	<!ENTITY ns_adobe_xpath "http://ns.adobe.com/XPath/1.0/">
-]>
-<svg version="1.1" id="Warstwa_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
-	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 640 223"
-	 style="enable-background:new 0 0 640 223;" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 200 60" style="enable-background:new 0 0 200 60;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#353945;}
-	.st1{fill:#87858A;}
-	.st2{fill:#FF9800;}
-	.st3{fill:#EB7400;}
-	.st4{fill:#FFBB00;}
-	.st5{fill:#E87A00;}
-	.st6{fill:#98D7F6;}
-	.st7{fill:none;stroke:#98D7F6;stroke-width:0.9012;stroke-miterlimit:10;}
-	.st8{opacity:0.42;fill:#FFFFFF;}
-	.st9{clip-path:url(#SVGID_2_);fill:#353945;}
-	.st10{clip-path:url(#SVGID_2_);fill:#87858A;}
-	.st11{clip-path:url(#SVGID_2_);}
-	.st12{clip-path:url(#SVGID_4_);fill:#353945;}
-	.st13{clip-path:url(#SVGID_4_);fill:#87858A;}
-	.st14{clip-path:url(#SVGID_4_);}
-	.st15{fill:none;}
-	.st16{font-family:'MicrosoftYaHei-Bold';}
-	.st17{font-size:61px;}
+	.st0{fill:none;stroke:#FCEE21;stroke-miterlimit:10;}
+	.st1{fill:none;}
+	.st2{fill:#FFFFFF;}
+	.st3{font-family:'Impact';}
+	.st4{font-size:22px;}
 </style>
+<g>
+	<polyline class="st0" points="9,32.5 127.55,32.5 157.59,2.46 188.09,32.96 	"/>
+	<rect x="9.3" y="39.45" class="st1" width="179" height="18.1"/>
+	<text transform="matrix(1 0 0 1 11.4681 56.8467)" class="st2 st3 st4">PROPER CONSTRUCT</text>
+</g>
+</svg>
