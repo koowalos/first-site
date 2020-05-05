@@ -1,3 +1,5 @@
+@import url("main-menu.css");
+
 * {
   box-sizing: border-box;
 }
@@ -67,34 +69,13 @@ body {
   padding-top: 20px;
 }
 
-.navbar-menu {
-  margin-top: 20px;
-  /* text-align: center; */
-  color: #f4f4f4;
-  list-style-type: none;
-  display: flex;
-  justify-content: space-between;
-}
-
-
-.navbar-menu a {
-  color:#f8f8f8;
-}
-
-.navbar-menu a:link {
-  text-decoration: none;
-}
-
-.navbar-menu a:visited {
-  text-decoration: none;
-}
-
-.navbar-menu a:hover {
-  text-decoration: underline;
-}
-
-.navbar-menu a:active {
-  text-decoration: underline;
+@media only screen and (max-width: 800px) {
+  .top-h2 {
+    font-size: 30px;
+  }
+  .top-h3 {
+    font-size: 18px;
+  }
 }
 
 .big-banner {
@@ -103,7 +84,7 @@ body {
 }
 
 .button-design {
-  background-color: #FF7600;
+  background-color: #ff7600;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -129,28 +110,28 @@ body {
 }
 
 .button-design:hover {
-  background-color: #FFAB00;
+  background-color: #ffab00;
   border: none;
 }
 
-/* .col-xs-12 {
+.col-xs-12 {
   border: 1px solid black;
-} */
+}
 
 h2 {
   margin: 0;
 }
 
 .social {
- height: 30px;
- width: 30px;
+  height: 30px;
+  width: 30px;
 }
 
 .company-logo {
   width: 50%;
 }
 
-.about-us-area {  
+.about-us-area {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #f4f4f4;
@@ -165,11 +146,11 @@ h2 {
   height: 100%;
   max-width: 91%;
   flex-direction: column;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 
 .button-contact-us {
-  max-width: 30%;
+  width: 160px;
 }
 
 .about-us-img {
@@ -183,15 +164,16 @@ h2 {
 }
 
 h2.services {
-font-size: 40px;
-text-align: center;
+  font-size: 40px;
+  text-align: center;
 }
 
 .numbers-parallax {
   font-size: 60px;
-  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 700;
-  color: #FFAB00;
+  color: #ffab00;
   margin-top: 140px;
 }
 
@@ -241,19 +223,21 @@ h2.footer-h2 {
   padding-bottom: 25px;
 }
 
-input[type=text], select, textarea {
-  width: 100%; 
-  padding: 12px;  
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px; 
-  resize: vertical
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
-input[type=submit] {
-  background-color: #FF7600;
+input[type="submit"] {
+  background-color: #ff7600;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -266,7 +250,7 @@ input[type=submit] {
   cursor: pointer;
 }
 
-input[type=submit]:hover {
-  background-color: #FFAB00;
+input[type="submit"]:hover {
+  background-color: #ffab00;
   border: none;
 }
