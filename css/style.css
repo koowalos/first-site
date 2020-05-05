@@ -74,7 +74,7 @@ body {
     font-size: 30px;
   }
   .top-h3 {
-    font-size: 18px;
+    font-size: 12px;
   }
 }
 
@@ -114,9 +114,9 @@ body {
   border: none;
 }
 
-.col-xs-12 {
-  border: 1px solid black;
-}
+/* .col-xs-12 {
+  box-shadow: 0 0 0 1px black;
+} */
 
 h2 {
   margin: 0;
@@ -150,7 +150,7 @@ h2 {
 }
 
 .button-contact-us {
-  width: 160px;
+  width: 170px;
 }
 
 .about-us-img {
@@ -158,13 +158,31 @@ h2 {
   margin-top: 5px;
 }
 
-.parallax-section {
-  height: 400px;
+h2.services {
+  font-size: 40px;
   text-align: center;
 }
 
-h2.services {
-  font-size: 40px;
+.parallax-section {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.parallax-banner {
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.parallax-banner-section {
+  display: flex;
+  flex-direction: column;
   text-align: center;
 }
 
@@ -174,12 +192,31 @@ h2.services {
     Roboto, "Helvetica Neue", Arial, sans-serif;
   font-weight: 700;
   color: #ffab00;
-  margin-top: 140px;
 }
 
 .text-parallax {
   color: #f4f4f4;
   font-size: 18px;
+}
+
+@media only screen and (max-width: 800px) {
+  .parallax-section {
+    height: 400px;
+  }
+  .parallax-banner {
+    flex-direction: column;
+  }
+  .parallax-banner p {
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
+  .numbers-parallax {
+    font-size: 30px;
+  }
+  .parallax-banner-section {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
 }
 
 .services-background {
@@ -197,7 +234,27 @@ h2.services {
 }
 
 .services-img {
-  max-width: 100%;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 1000px;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.services-img img {
+  margin-top: 20px;
+  width: 60px;
+  height: 60px;
+}
+
+@media only screen and (max-width: 800px) {
+  .services-left {
+    flex: 0 0 120px;
+    padding-top: 20px;
+  }
+  .services-img {
+    margin-bottom: 20px;
+  }
 }
 
 .services-header {
